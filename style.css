@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 222, 212);
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+a, .btn {
+    transition: all 300ms ease;
+}
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: rgb(95, 141, 117);
+    text-decoration: underline;
+}
+
+.logo {
+    font-size: 2rem;
+    color: rgb(95, 141, 117);
+    font-weight: bold;
+}
+
+.menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+}
+
+section {
+    padding-top: 5vh;
+    height: 95vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+.section__pic-container {
+    display: flex;
+    height: 450px;
+    width: 450px;
+    margin: auto 0;
+}
+
+.section__pic-container img {
+    clip-path: circle();
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text p {
+    font-weight: 500;
+}
+
+.section__text__p1 {
+    text-align: center;
+    font-size: 1.5rem;
+    color:black;
+}
+
+.section__text__p2 {
+    text-align: center;
+    font-size: 1rem;
+    color:black;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(95, 141, 117);
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-weight: 500;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 2rem;
+}
+
+.btn-color-1, .btn-color-2 {
+    border: rgb(95, 141, 117) 0.1rem solid;
+}
+
+.btn-color-1:hover, .btn-color-2:hover {
+    background-color: rgb(95, 141, 117);
+    cursor: pointer;
+}
+
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-containers p {
+    color: black;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, .about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+    width: 350px;
+    height: 350px;
+}
+
+.clubs-list {
+    padding-top: 1rem;
+    list-style: square;
+    font-weight: 500;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: rgb(233, 222, 212);
+    border-radius: 2rem;
+    border: rgb(95, 141, 117) 0.1rem solid;
+    text-align: center;
+}
+
+.section-container {
+    display: flex;
+    gap: 10rem;
+    height: 80%;
+}
+
+.section__pic-container {
+    display: flex;
+    margin: auto 0;
+}
+
+.text-container {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.text-container p {
+    color: black;
+}
+
+#experience {
+    position: relative;
+}
+
+.about-containers {
+    display: flex;
+    flex-direction: column;
+}
+
+.fidelity-details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: rgb(233, 222, 212);
+    border-radius: 2rem;
+    border: rgb(95, 141, 117) 0.1rem solid;
+    text-align: center;
+}
+
+.research-details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: rgb(233, 222, 212);
+    border-radius: 2rem;
+    border: rgb(95, 141, 117) 0.1rem solid;
+    text-align: center;
+}
+
+.about-containers li {
+    list-style: square;
+}
+
+#skills {
+    position: relative;
+}
+
+.skills-container {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.frontend-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: rgb(233, 222, 212);
+    border-radius: 2rem;
+    border: rgb(95, 141, 117) 0.1rem solid;
+    text-align: center;
+}
+
+.backend-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: rgb(233, 222, 212);
+    border-radius: 2rem;
+    border: rgb(95, 141, 117) 0.1rem solid;
+    text-align: center;
+}
+
+.devops-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: rgb(233, 222, 212);
+    border-radius: 2rem;
+    border: rgb(95, 141, 117) 0.1rem solid;
+    text-align: center;
+}
+
+.others-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: rgb(233, 222, 212);
+    border-radius: 2rem;
+    border: rgb(95, 141, 117) 0.1rem solid;
+    text-align: center;
+}
+
+.logos-container img {
+    clip-path: circle();
+    width: 350px;
+    height: 350px;
+}
+
+.skills-section-container {
+    display: flex;
+    gap: 4rem;
+    margin-top: 4rem;
+    justify-content: center;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#projects {
+    position: relative;
+    height: 135vh
+}
+
+.club-img {
+    height: 180px;
+    width: 90px;
+}
+
+.article-container {
+    align-items: center;
+}
+
+.budget-img {
+    height: 180px;
+    width: 90px;
+}
+
+.experience-details-container {
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.top-projects-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.uber-img {
+    height: 180px;
+    width: 90px;
+}
+
+.bottom-projects-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.tip-img {
+    height: 180px;
+    width: 90px;
+}
+
+.color-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.experience-description {
+    color: black;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(95, 141, 117) 0.1rem solid;
+    background: rgb(233, 222, 212);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
+
+footer {
+    margin: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    text-align: center;
+}

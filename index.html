@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evelyn Morado Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Evelyn Morado</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/Lumatic_Headshot 4.jpg" alt="Evelyn's Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Evelyn Morado</h1>
+            <p class="section__text__p2">Software Engineer/Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/EvelynMorado_Resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://linkedin.com/in/evelyn-morado/'">
+                <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/evelynmorado'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container-about">
+                <img src="./assets/skyline.jpg" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education Icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.S. Computer Science | Accounting Minor<br /><em>August 2022 - December 2025</em><br />I am a third year student at NC State University in Raleigh, NC.
+                        During my time at NC State, I have been an active member of:</p>
+                        <div class="clubs-list">
+                            <li>Society of Hispanic Professional Engineers (SHPE)</li>
+                            <li>App Development Club (ADC) - iOS Mobile Development</li>
+                            <li>Women in Computer Science (WiCS)</li>
+                        </div>
+                    </div>
+                </div>
+                    <div class="text-container">
+                        <p>I was born and raised in Jacksonville, NC where I lived with my mom and younger brother.
+                            Outside of tech., my hobbies include boxing, lifiting weights, and learning about investing. I have aspirations of becoming a Software Engineer in the future with a 
+                            special interest in front-end and mobile development.</p>
+                    </div>
+            </div>
+        </div>
+        <img src="./assets/down-arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">This Is My</p>
+        <h1 class="title">Experience</h1>
+            <div class="about-containers">
+                <div class="fidelity-details-container">
+                    <h3>Full Stack Software Engineer, Intern - Fidelity Investments (Durham, NC)</h3>
+                    <p><em>Jun 2024 - Aug 2024</em></p>
+                     <ul class="fideity-summary">
+                        <li>Collaborated with a team of 7 to enhance the equity research technology platform.</li>
+                        <li>Developed and maintained the equity research support website using <b style="color: rgb(95, 141, 117);">HTML, CSS, Node.js, and Angular.</b></li>
+                        <li>Improved the front-end and back-end of the site by: <b style="color: rgb(95, 141, 117);">Implementing AG Grids</b>, creating pop-up data models, applying quick
+                            filters to streamline data analysis, <b style="color: rgb(95, 141, 117);">utilizing subscription mechanisms</b> to trigger toast notifications based on real-time user interactions
+                        </li>
+                        <li>Enhanced<b style="color: rgb(95, 141, 117);"> UI testing skills </b>by using <b style="color: rgb(95, 141, 117);">Spectator</b> to mock data and functions within components, ensuring reliable and efficient test coverage.</li>
+                    </ul>
+                </div>
+                <div class="research-details-container">
+                    <h3>Research Assistant - CS Frontiers @ NC State University (Raleigh, NC)</h3>
+                    <p><em>Jan 2023 - Jun 2023</em></p>
+                    <ul class="research-summary">
+                        <li>Developed<b style="color: rgb(95, 141, 117);"> teamwork and data analysis skills </b>by working alongside 2 PhD students to effectively conduct a research
+                            study on a group of 6 high school students</li>
+                        <li>Assisted the students with various<b style="color: rgb(95, 141, 117);"> programming tasks on NetsBlox </b>which were assigned to them to improve their
+                            knowledge of Computer Science and encourage their interest in the field </li>
+                        <li>Assessed the progression of the students' coding skills by “grading” their code according to predetermined criteria using
+                            <b style="color: rgb(95, 141, 117);"> Excel spreadsheets</b></li>
+                    </ul>
+                </div>
+            </div>
+            <img src="./assets/down-arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#skills'">
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Here Are My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-section-container">
+        <div class="logos-container">
+            <img src="./assets/web-development-programming-languages-css-html-it-ui-programmer-cartoon-character-developing-website-coding-flat-illustration-banner-vector.jpg" alt="Tech logo">
+        </div>
+        <div class="skills-container">
+            <div class="top-container">
+            <div class="frontend-container">
+                <h3>Front-end</h3>
+                <ul class="frontend">
+                    <li><b style="color: rgb(95, 141, 117);">Languages:</b> HTML, CSS, JavaScript</li>
+                    <li><b style="color: rgb(95, 141, 117);">Frameworks/Libraries: </b>Angular, SwiftUI</li>
+                    <li><b style="color: rgb(95, 141, 117);">Testing Tools: </b>Spectator, Jest</li>
+                </ul>
+            </div>
+            <div class="backend-container">
+                <h3>Back-end</h3>
+                <ul class="backend">
+                    <li><b style="color: rgb(95, 141, 117);">Languages: </b>Java, Python, C</li>
+                    <li><b style="color: rgb(95, 141, 117);">Frameworks/Libraries: </b>Node.js</li>
+                    <li><b style="color: rgb(95, 141, 117);">Testing Tools: </b>Junit5</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <div class="devops-container">
+                <h3>DevOps and Version Control</h3>
+                <ul class="backend">
+                    <li><b style="color: rgb(95, 141, 117);">Tools: </b>Jenkins, Git</li>
+                </ul>
+            </div>
+            <div class="others-container">
+                <h3>Other</h3>
+                <ul class="backend">
+                    <li><b style="color: rgb(95, 141, 117);">Software: </b>Excel</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+        <img src="./assets/down-arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">These Are Some of My Mobile Development</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="top-projects-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="/assets/club-1.jpeg" alt="Project 1 Image 1" class="club-img">
+                    <img src="/assets/club-2.jpeg" alt="Project 1 Image 2" class="club-img">
+                    <h3 class="experience-sub-title project-title">NCSU Event App (SwiftUI)</h3>
+                    <p class="experience-description">Created the UI for both the 'Search' and 'Clubs' pages for my school's App Development Club project</p>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="/assets/uber-1.jpeg" alt="Project 3 Image 3" class="uber-img">
+                    <img src="/assets/uber-2.jpeg" alt="Project 3 Image 3" class="uber-img">
+                    <h3 class="experience-sub-title project-title">Uber Clone App *In Progress* (Swift)</h3>
+                    <p class="experience-description">Currently developing a clone of the uber application by using frameworks including MapKit and CoreLocation</p>
+                </div>
+            </div>
+    </div>
+    <div class="bottom-projects-container">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="/assets/budget-1.png" alt="Project 2 Image 2" class="budget-img">
+                <img src="/assets/budget-2.png" alt="Project 2 Image 2" class="budget-img">
+                <h3 class="experience-sub-title project-title">Expense Tracker (Swift)</h3>
+                <p class="experience-description">Developed an application where you can add/log your expenses for a certain date range</p>
+            </div>
+            <div class="project-btn-container">
+                <button class="btn btn-color-2" onclick="location.href='https://github.com/evelynmorado/WealthWise'">Github</button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="/assets/tip-calculator.jpeg" alt="Project 2 Image 2" class="tip-img">
+                <h3 class="experience-sub-title project-title">Tip Calculator (Swift)</h3>
+                <p class="experience-description">Constructed an application that calculates the tip of your bill based on the percentage you select using the sliding bar</p>
+            </div>
+            <div class="project-btn-container">
+                <button class="btn btn-color-2" onclick="location.href='https://github.com/evelynmorado/TipCalculatorApplication'">Github</button>
+            </div>
+        </div>
+    </div>
+        </div>
+        <img src="./assets/down-arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="/assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:evelin1morado@outlook.com">evelin1morado@outlook.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="/assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                <p><a href="https://linkedin.com/in/evelyn-morado/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Evelyn Morado</p>
+    </footer>
+</body>
+</html>

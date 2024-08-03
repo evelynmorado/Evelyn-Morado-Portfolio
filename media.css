@@ -1,0 +1,243 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 85vh;
+        margin-bottom: 5rem;
+    }
+
+    .about-containers {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .logos-container {
+        display: none;
+        }
+
+    .about-pic {
+        display: none;
+    }
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #experience, .experience-details-container {
+        margin-top: 2rem;
+    }
+
+    #profile, .section-container {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        height: 120vh;
+        align-items: center;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section, .section-container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 10%;
+        height: auto;
+    }
+
+    .section__pic-container {
+        width: 220px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .about-containers {
+        margin-top: 0;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #skills {
+        height: 90vh;
+        margin-top: 2rem;
+    }
+
+    #projects {
+        margin-top: 2rem;
+        height: 130vh;
+    }
+
+    .skills-section-container {
+        margin-top: 0%;
+    }
+
+    #about {
+        height: 90vh;
+    }
+
+    #experience {
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #experience {
+        height: 105vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #about {
+        height: 110vh;
+    }
+
+    #experience {
+        height: 130vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #profile {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .section__pic-container {
+        width: auto;
+        height: 40vh;
+        justify-content: center;
+    }
+
+    .section__text__p1 {
+        font-size: 1rem;
+    }
+
+    .title {
+        font-size: 1.25rem;
+    }
+
+    #about {
+        width: 100%;
+        margin-left: 0%;
+        padding-top: 12rem;
+        height: auto;
+    }
+
+    .section__pic-container-about {
+        display: none;
+    }
+
+    .section-container {
+        width: 100%;
+    }
+
+    .text-container {
+        margin: 1rem;
+    }
+
+    .about-containers {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    #experience {
+        width: 100%;
+        margin-left: 0%;
+        height: auto;
+    }
+
+    #skills {
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+    }
+
+    .skills-section-container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .top-container {
+        gap: 1rem;
+    }
+
+    .bottom-container {
+        gap: 1rem;
+    }
+
+    #projects {
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+    }
+
+    .top-projects-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .bottom-projects-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .experience-details-container {
+        margin-top: 0%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        gap: 1rem;
+    }
+
+    #contact {
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 5rem;
+    }
+
+    .contact-info-upper-container {
+        width: 90%;
+    }
+
+    .contact-info-container img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .email-icon {
+        width: 35px !important;
+        height: 35px !important;
+    }
+
+    .contact-info-container p {
+        font-size: 0.75rem;
+    }
+
+    footer {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    footer p {
+        font-size: small;
+    }
+
+    .nav-links li a {
+        display: none;
+    }
+
+
+}
