@@ -185,6 +185,7 @@ section {
     border-radius: 2rem;
     width: 350px;
     height: 350px;
+    clip-path: circle();
 }
 
 .clubs-list {
@@ -230,6 +231,7 @@ section {
 
 #experience {
     position: relative;
+    height: auto;
 }
 
 .about-containers {
